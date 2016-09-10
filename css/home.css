@@ -413,7 +413,7 @@ fieldset[disabled] .my-navbar-default .btn-link:focus
 }
 .nav-tabs-parent
 {
-    width: 465px;
+    width: 370service-descpx;
     margin: 0 auto 50px;
 }
 .nav-tabs-parent > li
@@ -680,6 +680,7 @@ fieldset[disabled] .my-navbar-default .btn-link:focus
     line-height: 200%;
 
     text-align: left;
+    overflow: hidden;
 }
 .service-box:hover
 {

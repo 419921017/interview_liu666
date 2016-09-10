@@ -59,7 +59,7 @@ a:hover{
     color: #777;
 }
 .my-navbar-default .navbar-brand:hover,
-.my-navbar-default .navbar-brand:focus {
+.my-navbar-default .nav nav-tabs-parentbar-brand:focus {
     color: #5e5e5e;
     background-color: transparent;
 }

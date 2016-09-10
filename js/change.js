@@ -30,17 +30,23 @@ $(function(){
         
         var winTop = $(document).scrollTop();
         if (winTop > $('#skill').offset().top) {
+
             $('a[href="#contact"]').parent('li').addClass('active').siblings('li').removeClass('active');
             $('.project .gallery-item .animated').removeClass('go');
             $('.skill .animatedParent .animated').addClass('go');
+
         } else if (winTop > $('#project').offset().top - 50) {
+
             $('a[href="#skill"]').parent('li').addClass('active').siblings('li').removeClass('active');
-        } else if (winTop > $('#project').offset().top - 100) {
+
+        } else if (winTop > $('#project').offset().top - 80) {
+
             $('a[href="#project"]').parent('li').addClass('active').siblings('li').removeClass('active');
-            $('.project .gallery-item .animated').addClass('go');
-            $('.skill .animatedParent .animated').removeClass('go');
+            // $('.project .gallery-item .animated').addClass('go');
+            // $('.skill .animatedParent .animated').removeClass('go');
 
         } else if (winTop > $('#about').offset().top - 100) {
+            
             $('.project .gallery-item .animated').addClass('go');
             $('.index .animatedParent .animated').removeClass('go');
             $('a[href="#about"]').parent('li').addClass('active').siblings('li').removeClass('active');
